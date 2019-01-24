@@ -1,0 +1,23 @@
+Question1:
+print(os.environ)
+
+Question2:
+QUERY_STRING
+
+Question3:
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0 
+
+Question4:
+form = cgi.FieldStorage()
+p_user = form.getvalue("username")
+p_password = form.getvalue("password")
+
+Question5:
+Set-Cookie: username=ruby
+
+Question6:
+cookie_string = os.environ.get("HTTP_COOKIE")
+
+Question7:
+Cookie is used for storing user's data that will be used next time so that user does not need to enter it again.
+Cookie can also be used to identify user.
